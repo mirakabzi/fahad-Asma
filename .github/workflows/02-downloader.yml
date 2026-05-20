@@ -3,6 +3,9 @@ name: 000_2 download list 60per time
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  
 jobs:
   download:
     runs-on: ubuntu-latest
